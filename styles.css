@@ -1,0 +1,196 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9; /* Light background for a clean look */
+}
+
+/* Header Styles */
+.header {
+  background-color: #ff5733; /* Vibrant header background */
+  padding: 40px;
+}
+
+.header-content {
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 2.5em;
+}
+
+.header p {
+  font-size: 1.2em;
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: #333; /* Dark navigation bar */
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline-block;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+}
+
+.navbar a:hover {
+  text-decoration: underline; /* Underline effect on hover */
+}
+
+/* Main Content Styles */
+.main-content {
+    padding:40px
+}
+.intro-section h2 {
+    text-align:center
+}
+.intro-section h3 {
+    color:#ff5733
+}
+.intro-section p,
+.intro-section ul {
+    font-size:1.1em
+}
+
+/* Technology Section Styles */
+.technology-section,
+.how-it-works-section,
+.guidance-section,
+.contact-section {
+    padding:40px;
+}
+
+/* Image Styles */
+.content-image,
+.technology-image {
+    width:100%; /* Responsive image */
+    max-width:600px; /* Limit maximum width */
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #333; /* Dark footer background */
+    color: white;
+    padding:20px
+}
+.footer-content {
+    text-align:center
+}
+.social-link {
+    color:white
+}
+.social-link:hover {
+    text-decoration:none
+}
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9; /* Light background for a clean look */
+}
+
+/* Header Styles */
+.header {
+  background-color: #ff5733; /* Vibrant header background */
+  padding: 40px;
+}
+
+.header-content {
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 2.5em;
+}
+
+.header p {
+  font-size: 1.2em;
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: #333; /* Dark navigation bar */
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline-block;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+}
+
+.navbar a:hover {
+  text-decoration: underline; /* Underline effect on hover */
+}
+
+/* Main Content Styles */
+.main-content {
+  padding: 40px;
+}
+
+.contact-section h2 {
+  text-align: center;
+}
+
+/* Contact Form Styles */
+#contact-form {
+  max-width: 600px; /* Limit form width */
+  margin: auto; /* Center form */
+}
+
+#contact-form label {
+  display: block; /* Each label on a new line */
+  margin-bottom: 5px; /* Space between label and input */
+}
+
+#contact-form input,
+#contact-form textarea,
+#contact-form button {
+  width: calc(100% - 20px); /* Full width minus padding */
+  padding: 10px; /* Padding for inputs */
+  margin-bottom: 15px; /* Space between fields */
+}
+
+#contact-form button {
+  background-color: #ff5733; 
+  color: white; 
+  border-radius: 5px; 
+  border: none; 
+  cursor: pointer; 
+}
+
+#contact-form button:hover {
+  background-color: #e65c30; /* Darker shade on hover */
+}
+
+/* Contact Information Styles */
+.contact-info {
+ margin-top: 40px; /* Space above contact info */
+ text-align: center; /* Center align text */
+}
+
+.contact-info h3 {
+ margin-top: 20px; /* Space above headings in contact info */
+}
